@@ -1,8 +1,9 @@
 const frmEmail = document.getElementById('frm-email')
 frmEmail.addEventListener('submit', sendEmail)
 
-const serviceId = 'nombre de mi servigio de gmail'
-const templateId = ''
+const serviceId = 'service_qur2pc9'
+const templateId = 'template_ogamv4m'
+const apikey = 'QT54_HA5kv4hiaU6A'
 
 function sendEmail(event){
     event.preventDefault()
